@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_text"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:padding="2dp"/>
+
+    <ImageButton
+        android:id="@+id/ib_water_increment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/description"
+        android:padding="8dp"
+        android:onClick="incrementWater"
+        android:scaleType="fitCenter"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/download" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_count"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/show_text"/>
+
+
+
+
+</LinearLayout>

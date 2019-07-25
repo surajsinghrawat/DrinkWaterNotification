@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DrinkWaterNotification</string>
+    <string name="set_text">Press the glass of water after drinking the water</string>
+    <string name="number_count">Count</string>
+    <string name="description">Press to record drinking water</string>
+
+</resources>
