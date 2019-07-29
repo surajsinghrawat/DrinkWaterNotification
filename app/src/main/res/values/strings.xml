@@ -3,5 +3,16 @@
     <string name="set_text">Press the glass of water after drinking the water</string>
     <string name="number_count">Count</string>
     <string name="description">Press to record drinking water</string>
+    <string name="notification_string">Notification</string>
+    <string name="title">Drink Water</string>
+    <string name="text">Now its Time to Drink a Glass of Water</string>
 
+    <string-array name="Time">
+        <item>10 min</item>
+        <item>20 min</item>
+        <item>30 min</item>
+        <item>45 min</item>
+        <item>1 hour</item>
+
+    </string-array>
 </resources>
